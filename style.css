@@ -2,30 +2,96 @@
   margin: 0;
   padding: 0;
 }
-body {
-  background-color: #eee;
-}
-nav {
+html, body {
+  height: 100%;
   width: 100%;
-  height: 80px;
+  background-color: beige;
+}
+.container {
+  overflow: hidden;
+}
+.header-top {
+  height: 100px;
+  text-align: center;
   background-color: #fff;
 }
-nav ul {
-  padding-left: 350px;
-  line-height: 80px;
-}
-nav ul li {
-  display: inline;
+
+/* Logo Styling */
+
+.img-logo {
+  width: 20%;
+  height: 100px;
   float: left;
+  margin: auto; 
 }
-nav ul li a  {
+.img-logo img {
+  width: 100%;
+  height: 100px;
+}
+
+/* Nav Styling */
+ 
+.nav-bar {
+  width: 80%;
+  height: 100%;
+  margin: none;
+  float: right;
+  background-color: #d2b48c;
+}
+.nav-bar ul {
+  float: right;
+  margin: none;
+  text-align: center;
+  padding-right: 25%;
+}
+.nav-bar ul li {
+  list-style: none;
+  float: center;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  line-height: 100px;
+}
+.nav-bar ul li a {
+  display: inline-block;
   text-decoration: none;
-  display: block;
-  font-family: "Rockwell";
-  color: black;
-  padding-left: 50px;
-  padding-right: 55px;
+  padding: 0 30px 0 25px;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: #d2b48c;
+  color: #000;
 }
-nav ul li a:hover {
-  color: red;
+.nav-bar ul li a:hover {
+  font-size: 30px;
+  background-color: #964b00;
+}
+
+/* Header-rest */
+.header-rest {
+  color:#a0522d;
+  margin: 0 5% 0 5%;
+  width: 100%;
+  height: 550px;
+}
+/* Header-Intro */
+.intro {
+  width: 40%;
+  margin-top: 50px;
+  text-align: center;
+  float: left;
+  font-size: xx-large;
+  font-weight: 500;
+  font-family: cursive;
+  margin-left: 10px;
+  height: 100%;
+}
+
+/* Header-profile */
+.header-formal {
+  width: 50%;
+  float: right;
+  height: 100%;
+}
+.img-profile {
+  width: 100%;
 }
